@@ -1,2 +1,12 @@
 # Detecting-Cervical-Dysplasia
-This project involves the gathering and augmentation of PAP SMEAR cell images for the purpose of identifying the five stages of cervical dysplasia.
+This project involves gathering and augmentation of PAP SMEAR cell images to identify the five stages of cervical dysplasia.
+
+The vital need to halt cervical cancer's progression at an early stage is emphasized by cervical dysplasia, a precursor to the malignancy. In this study, we investigate how well deep learning models work to identify cervical dysplasia in pap smear images automatically. Three cutting-edge deep learning architectures are used in the study: DenseNet, ResNet, and Vision Transform (ViTs). A carefully selected dataset of pap smear images, comprising a range of dysplastic and normal cervical cell cases across five classes, is used to train and assess each model. The suggested models are trained to recognize complex patterns and characteristics that point to dysplastic alterations in cervical cells. The strengths and weaknesses of each architecture are evaluated by comparative assessments concerning classification accuracy, sensitivity, specificity, and computational efficiency. All of the models show promising performance in our trial results, each with its own set of benefits. While ResNet demonstrates robustness to vanishing gradient problems, the DenseNet model is superior at capturing dense feature associations. With their attention processes, Vision Transformers provide a unique viewpoint on the significance of features. The comparison study adds to the field of medical image analysis's evolution and offers insightful information about the best deep-learning architectures to use for detecting cervical dysplasia. The results of this study could lead to more accurate and efficient cervical cancer screening systems, which would benefit women's health outcomes. To facilitate future developments and a smooth transition into clinical practice, our research emphasizes the significance of implementing cutting-edge deep learning algorithms in medical image processing.
+
+![image](https://github.com/snehasaran09/Detecting-Cervical-Dysplasia/assets/73630726/d8e32c03-fed2-4994-8567-5827709a0bc6)
+
+Below are the number of images before and after augmentation. Augmentation was carried out carefully considering the sensitivity of the medical images and special care was taken to ensure they are usable post augmentation. 
+
+![image](https://github.com/snehasaran09/Detecting-Cervical-Dysplasia/assets/73630726/25f3ec1a-f88b-42d6-a9b2-cfb12f3c2329)
+
+
